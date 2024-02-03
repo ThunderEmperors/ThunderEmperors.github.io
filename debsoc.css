@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body{
+    margin: 0px;
+}
+
+#main-header{
+    height: 20px;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+#main-header img{
+    height:100px;
+}
+
+.division{
+    height: 48px;
+    padding-left: 34%;
+}
+
+.space{
+    width : 50px;
+    display:inline-block;
+}
+
+.half-color {
+	position:relative;
+	font-size:80px;
+	display:inline-block;
+ 	color:#fff;
+ 	font-family: 'Protest Strike';
+}
+.half-color:before{
+	content: attr(attribute);
+	color:#6f57ff;
+	position:absolute;
+	top:0;
+	left:0;
+	height:50%;
+	overflow:hidden;
+
+}
+
+.topnav{
+    background-color: #fff;
+    align-items: center;
+    font-family: 'Protest Strike';
+    font-size: 30px;
+}
+
+.topnav a{
+    padding-left: 16%;
+    text-decoration: none;
+    color: #6f57ff;
+}
+
+.topnav a:visited{
+    text-decoration: none;
+    color: #6f57ff;
+}
+
+.events-list{
+    border:50px;
+    background-color: #6f57ff;
+    font-family: "Libre Baskerville";
+}
+
+.event-1{
+    display:flex;
+    width:50%;
+    align-items: center;
+    border:15px;
+    margin-left: 15%;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 200px;
+}
+
+.event-2{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-left: 20px;
+    height:200px;
+}
+
+.event-img{
+    background-color: #fff;
+    color: #000;
+    display:flex;
+    border-right: 15%;
+}
+
+.event-img img{
+    margin-left: 20px;
+    height: 190px;
+    border-radius: 25px;
+}
+
+.event-text{
+    display: grid;
+}
+
+.event-title{
+    font-size: 50px;
+    padding-left: 15%;
+    width: 400px;
+}
+
+.event-desc{
+    padding-left: 15%;
+    font-size: 15px;
+}
+
+#event2{
+    margin-left:40%;
+}
+
+#event3{
+    margin-left:30%;
+}
+
+#event4{
+    margin-left:45%;
+    width:45%;
+}
+
+#event5{
+    margin-left:10%;
+
+}
+
+#event6{
+    margin-left:20%;
+    width:60%;
+}
+
+#event7{
+    margin-left: 40%;
+}
+
+#event8{
+    margin-left: 15%;
+    height:220px;
+}
+
+
+#event6-title{
+    width:600px;
+}
+
+.events-button{
+    width:500px;
+    background-color: #3bb38f;
+    margin-left:518px;
+    border-radius: 25px;
+    height: 65px;
+}
+
+.more-events{
+    width: 60%;
+    margin-left:25%;
+    margin-top:20px;
+    font-family: "DM Serif Display";
+    font-size:48px;
+    color:#F6FDC3;
+}
+
+.footer-left{
+    padding-top:80px;
+}
+
+.footer-future{
+    background-color: #080217;
+    display: flex;
+    font-family: 'Protest Strike';
+    height: 200px;
+}
+
+.footer-text{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-text-left{
+    display:flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 300px;
+    font-size: 40px;
+}
+
+.footer-text-right{
+    display: flex;
+}
+
+.footer-text-right input{
+    border-style: ridge;
+    width: 200px;
+    outline: none;
+    padding: 10px;
+    height: 25px;
+}
+
+.footer-text-right button{
+    display: inline-block;
+    background-color: #6f57ff;
+    border: transparent;
+    height: 45px;
+    padding: 50%;
+    padding-bottom: 50%;
+    padding-top: 30%;
+    align-content: center;
+}
+
+.footer-info{
+    background-color: #6f57ff;
+    display:flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-top:2%;
+    font-family: "DM Serif Display";
+    font-size:30px;
+}
+
+.social-media img{
+    width:30px;
+}
+
+.contact-info{
+    padding-top:30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.more-links{
+    font-size:15px;
+    text-decoration: none;
+}
+
+.more-links a{
+    color: #fff;
+}
